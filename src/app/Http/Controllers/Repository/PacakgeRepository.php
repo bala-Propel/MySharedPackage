@@ -2,8 +2,8 @@
 
 namespace  Prope\MySharedPackage\app\Http\Controllers\Repository;
 
-use App\Models\Product;
 use Prope\MySharedPackage\app\Http\Controllers\Interface\PacakgeInterface;
+use Prope\MySharedPackage\App\Models\Product;
 
 class PacakgeRepository implements PacakgeInterface
 {
