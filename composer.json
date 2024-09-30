@@ -1,0 +1,16 @@
+{
+    "name": "prope/my-shared-package",
+    "description": "this is test purpose",
+    "autoload": {
+        "psr-4": {
+            "Prope\\MySharedPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bala-Propel",
+            "email": "balamurugan@propelsoft.in"
+        }
+    ],
+    "require": {}
+}
