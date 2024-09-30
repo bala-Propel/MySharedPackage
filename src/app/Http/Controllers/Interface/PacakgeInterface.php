@@ -5,5 +5,5 @@ namespace Prope\MySharedPackage\app\Http\Controllers\Interface;
 interface PacakgeInterface
 {
 
-    public function get();
+    public function getall();
 }
