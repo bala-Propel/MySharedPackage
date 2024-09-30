@@ -19,6 +19,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        $this->app->bind('Prope\MySharedPackage\app\Http\Controllers\Interface\PacakgeInterface','Prope\MySharedPackage\app\Http\Controllers\Repository\PacakgeRepository');
     }
 }
